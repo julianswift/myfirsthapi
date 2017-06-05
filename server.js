@@ -265,10 +265,10 @@ server.start((err) => {
  User.sync({force: false}).then(() => {
  // Table created
  return User.create({
- firstName: 'Levan',
- lastName: 'R',
+ firstName: 'New',
+ lastName: 'G',
  favDrink: 'Tea',
- drinkNotes: '2 Sugar - Strong'
+ drinkNotes: 'TBA'
  });
 
  });
