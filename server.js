@@ -264,20 +264,12 @@ server.start((err) => {
 /*
  User.sync({force: false}).then(() => {
  // Table created
- return User.create({
+
+ User.create({
  firstName: 'New',
  lastName: 'G',
  favDrink: 'Tea',
  drinkNotes: 'TBA'
- });
-
- });
-
- User.create({
- firstName: 'Levan',
- lastName: 'R',
- favDrink: 'Tea',
- drinkNotes: '2 Sugar - Strong'
  });
 
  User.create({
